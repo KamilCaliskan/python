@@ -1,0 +1,4 @@
+import urllib.request, urllib.parse, urllib.error
+hand=urllib.request.urlopen('https://www.blablabla.com')
+for line in hand:
+    print(line.decode().strip())
